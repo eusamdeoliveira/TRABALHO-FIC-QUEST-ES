@@ -1,0 +1,136 @@
+body {
+    background-color: #F5F5F5; /*Cor do Fundo da Pagina*/
+    font-size: 22px; /* Fonte da Pagina */
+  }
+
+  ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    background-color: #34678A;
+    width: 100%;
+    height: 100px;
+  }
+  
+  ul.submenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-color:#78A7C8;
+    display: none;
+  }
+  .menu li {
+    float: left;
+    width: auto;
+    position: relative;
+    text-transform: capitalize;
+  }
+  .submenu li {
+    float: left;
+    width: 200px;
+    position: relative;
+  }
+  .menu li a {
+    display: block;
+    color: #fff;
+    text-align: left;
+    padding: 32px 16px;
+    text-decoration: none;
+    font-size: 32px;
+  }
+  .menu li:hover > ul.submenu {
+    display: block;
+  }
+  .menu a:hover {
+    background-color: #444444;
+  }
+
+  .LogoMenu
+  {
+    width: 100px;
+    height: 100px;
+    float:right;
+    /* margin-right: 200px; */
+  }
+
+  main {
+    margin: 10px 0px;
+    padding: 0;
+  }
+  .Conteiner {
+    /* background-color: rgb(255, 145, 0); */
+    z-index: -1;
+    height: 800px;
+    width: 100%;
+    position: relative;
+    top: 100px;
+    margin: 10px 0px;
+    padding: 0;
+  }
+  .TextoContent
+  {
+    width: 50%;
+    height: 50%%;
+    padding: 0;
+    float: center;
+    position: relative;
+  }
+
+  /* .TextoContent {
+    background-color: rgb(212, 43, 43);
+  }
+
+  .ImagensContent {
+    background-color: rgb(77, 212, 43);
+  }
+   */
+  .FooterBox {
+    background-color: #444444;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    display: flex;
+color: #F5F5F5;
+    font-size: 32px;
+  }
+
+  .CentralizandoFooter
+  {
+    margin:200px;
+    margin-top:50px;
+    margin-bottom: 0px;
+    padding: 50px;
+    width: 100%;
+    float: left;
+    align-items: center;
+  }
+  .ConteudoFooter
+  {
+    font-size: 22px;
+    list-style-type: none;
+    text-align: center;
+    float: left;
+    height: auto;
+    width:50%
+  }
+
+  .ConteudoFooter ul
+  {
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  .ConteudoFooter a
+  {
+    color: #F5F5F5;
+    list-style-type: none;
+    font-family: monospace; 
+   font: bold;
+  }
