@@ -1,0 +1,79 @@
+body{
+
+  background-color: #F2F2F2; /*Cor do Fundo da Pagina*/
+
+}
+
+.Conteiner {
+  /* background-color: rgb(255, 145, 0); */
+
+  height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+.TextoContent
+{
+  margin: 0px;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TextoContent p
+{
+  margin: 0px;
+  padding: 10px;
+}
+.ImagensContent
+{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ImagemInicial
+{
+  height: 300px;
+  width: 300px;
+}
+
+  /* .TextoContent {
+    background-color: rgb(212, 43, 43);
+  }
+
+  .ImagensContent {
+    background-color: rgb(77, 212, 43);
+  }
+   */
+
+.Box
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.Box1 , .Box2 , .Box3  /* Imagens nas Box */
+{
+  margin:10px;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.303);
+}
+
+
+.Box1 img , .Box2 img, .Box3 img  /* Imagens nas Box */
+{
+  height: 200px;
+  width: 200px;
+  
+}
