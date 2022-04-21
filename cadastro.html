@@ -88,11 +88,17 @@
 <!-- -------------------------------------------------------------------//-------------------------------------------------------------------  -->
 
 <!-- TELA CADASTRO -->
-    <conteiner class="conteinerSign-in">
-      <div class=boxSignin>
+    <conteiner class="conteinerinscricao">
+      <div class=boxinscricao>
         <main class="form-signin">
           <form>
+
             <h1 class="h3 mb-3 fw-normal">Inscrição</h1>
+            
+            <div class="form-floating">
+              <input type="text" class="form-control" id="NameInput" placeholder="name@example.com">
+              <label for="floatingInput">Name</label>
+            </div>
             <div class="form-floating">
               <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
               <label for="floatingInput">Email address</label>
@@ -101,24 +107,26 @@
               <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
               <label for="floatingPassword">Password</label>
             </div>
+            <div class="form-floating">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Password Confirmation</label>
+            </div>
             <div class="checkbox mb-3">
               <label>
-                <input type="checkbox" value="remember-me"> Remember me
+                <input type="checkbox" value="remember-me"> Aceita os Termos
               </label>
             </div>
-            <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Cadastrar</button>
             <br>
             <br>
-            <a class="" href="#">Esqueci Minha Senha</a>
-            <br>
-            <a class="" href="#">Cadastre-se</a>
+            <a class="" href="#">Já sou Cadastrado</a>
           </form>
         </main>
       </div>
     </conteiner>
 
     <style>
-      .conteinerSign-in
+      .conteinerinscricao
       {
         background-color: #E44A3C;
         display: flex;
@@ -126,9 +134,9 @@
         width:100%;
       }
 
-      .boxSignin
+      .boxinscricao
       {
-        height: 350px;
+        height: 500px;
         width: 350px;
         display: flex;
         justify-content: center;
@@ -136,6 +144,12 @@
         margin: 146px 0px;
         padding: 0px;
         background-color: white;
+      }
+
+      .form-floating
+      {
+        margin:8px 0px;
+
       }
 
     </style>
