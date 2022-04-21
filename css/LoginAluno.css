@@ -1,0 +1,39 @@
+body{
+    background-color: #E44A3C; /*Cor do Fundo da Pagina*/
+
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.Conteiner 
+{
+  height: 50%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.TextoContent
+{
+  background-color: white; /*Cor do Fundo da Pagina*/
+  padding: 50%;  
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#tabela{
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px; 
+}
+
+#LinkEsqueceuSenha
+{
+  font-size: 12px;
+}
