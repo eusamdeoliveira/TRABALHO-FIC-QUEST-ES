@@ -4,13 +4,22 @@ body{
 
 }
 
-.Conteiner {
-  /* background-color: rgb(255, 145, 0); */
-
+main
+{
   height: 700px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+.ConteinerIndex {
+
+  display: flex;
+  justify-content: left;
+  text-align: left;
   margin: 0px;
   padding: 0px;
   
