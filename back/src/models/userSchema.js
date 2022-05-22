@@ -6,14 +6,27 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+
     email: {
         type: String,
         required: true
     },
+
     password: {
         type: String,
         required: false
     },
+
+    roles: {
+        type: [
+            {
+                type: String,
+                enum: ['admin', 'student', 'teacher', 'user']
+            }
+        ],
+        default: ['user']
+    },
+
     createdAt: {
         type: Date,
         default: new Date()
