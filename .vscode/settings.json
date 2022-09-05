@@ -1,0 +1,7 @@
+{
+    "editor.formatOnPaste": false,
+    "material-icon-theme.hidesExplorerArrows": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "workbench.editor.preferHistoryBasedLanguageDetection": false,
+    "explorer.compactFolders": false
+}
