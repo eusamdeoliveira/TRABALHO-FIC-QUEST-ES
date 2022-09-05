@@ -4,7 +4,7 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 
 @app.route('/')
-def ola_mundo():
+def ola_samara():
     '''método get para retornar um hello world a partir da raiz da nossa api'''
     json = {"mensagem":"Olá, mundo!"}
     return jsonify(json)
